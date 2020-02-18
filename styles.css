@@ -1,0 +1,137 @@
+/* header and body setup */
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background: url(images/pattern.png);
+      }
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+      /* Header styling */
+      header {
+        height: 150px;
+      }
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+      h1 {
+        font-size: 50px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+      }
+      /* main section and video styling */
+      main {
+        background: #ccc;
+      }
+      article {
+        padding: 20px;
+      }
+      h2 {
+        margin-top: 0;
+      }
+      p {
+        line-height: 2;
+      }
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+      /* further info links */
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #b395cc;
+        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                    inset 0 -3px 2px rgba(0,0,0,0.5);
+      }
+      .further-info a {
+        width: 30%;
+        padding: 0 1%;
+        display: block;
+        float: left;
+      }
+      .further-info img {
+        max-width: 100%;
+      }
+      .clearfix {
+        clear: both;
+      }
+      /* Red panda image */
+      .closing-image img {
+        display: block;
+        max-width: 100%;
+      }
+
+      /* ///////////////////tour///////////////// */
+
+      table {
+        width: 400px;
+        /*border-spacing: 40px;*/
+      }
+
+      th, caption {
+        text-align: left;
+      }
+
+      table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 10px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #fff;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #b395cc;
+      }
+
+      /* ///////////////////fans form///////////////// */
+
+      form {
+        width: 300px;
+      }
+
+      input {
+        width: 100%;
+      }
+
+      textarea {
+        resize: vertical;
+        max-height: 100px;
+      }
+
+      input, textarea {
+        outline: none;
+        border: 1px solid #ddd;
+      }
+
+      input:focus, textarea:focus {
+        box-shadow: 0 0 4px #b395cc;
+        border: 1px solid #ddd;
+      }
+
+      ::placeholder { /* styles for main/most browsers */
+        color: #b395cc;
+        opacity: 1;
+      }
+
+      :-ms-input-placeholder { /* styles for Internet Explorer */
+        color: #b395cc;
+      }
+
+      ::-ms-input-placeholder { /* styles for Microsoft Edge */
+        color: #b395cc;
+        opacity: 1;
+      }
